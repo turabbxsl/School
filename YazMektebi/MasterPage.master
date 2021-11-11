@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .txtclass {
+            color: #fff;
+            font-size: 20px;
+            font-size: 20px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #bc2121;
+            font-weight: bold;
+            width: 350px;
+            height: 24px;
+            margin-left: 15px;
+        }
+
+        .simplebutton1 {
+            color: #bc2121;
+            background-color: Transparent;
+            height: 50px;
+            width: 340px;
+            padding: 10px;
+            border: solid 2px #bc2121;
+            font-size: 20px;
+            font-weight: lighter;
+            font-family: Consolas;
+            webkit-border-radius: 15px 15px 15px 15px;
+            -moz-border-radius: 15px 15px 15px 15px;
+            border-radius: 15px 15px 15px 15px;
+            
+        }
+
+        .mydropdownlist {
+            color: #fff;
+            font-size: 20px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: #bc2121;
+            font-weight: bold;
+            width: 250px;
+            height: 39px;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+            .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+                .dropdown-content a:hover {
+                    background-color: #ddd;
+                }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    <div class="navbar">
+        <a href="#home">Ana Sehife</a>
+        <a href="Ogrencilistesi.aspx">Telebeler</a>
+        <a href="Default.aspx">Yeni Qeydiyyat</a>
+        <a href="Dersler.aspx">Dersler</a>
+        <a href="Kontenjan.aspx">Kontenjanlar</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">
+                Komek Et 
+      <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Nomreye Zeng Et</a>
+                <a href="#">E-mail Mesaj At</a>
+                <a href="#">Sikayet Et</a>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 10px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>
+

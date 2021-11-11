@@ -1,0 +1,9 @@
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\bin\Debug\DatAccessLayer.dll
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\bin\Debug\DatAccessLayer.pdb
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\obj\Debug\DatAccessLayer.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\obj\Debug\DatAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\obj\Debug\DatAccessLayer.csproj.CopyComplete
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\obj\Debug\DatAccessLayer.dll
+C:\Users\HP\source\repos\YazMektebi\DatAccessLayer\obj\Debug\DatAccessLayer.pdb

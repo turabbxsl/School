@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\bin\Debug\BiznesLogicLayer.dll
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\bin\Debug\BiznesLogicLayer.pdb
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\bin\Debug\DatAccessLayer.dll
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\bin\Debug\EntityLayer.dll
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\bin\Debug\DatAccessLayer.pdb
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\bin\Debug\EntityLayer.pdb
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\obj\Debug\BiznesLogicLayer.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\obj\Debug\BiznesLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\obj\Debug\BiznesLogicLayer.csproj.CopyComplete
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\obj\Debug\BiznesLogicLayer.dll
+C:\Users\HP\source\repos\YazMektebi\BiznesLogicLayer\obj\Debug\BiznesLogicLayer.pdb
